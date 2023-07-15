@@ -1,0 +1,49 @@
+
+.total{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 80px;
+    
+}
+.right{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin: 20px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.col .right{
+    padding: 30px;
+}
+.col img{
+    width: 100%;
+    height: 500px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* responsive */
+@media screen and (max-width:576px) {
+    .col{
+        width: 100%;
+    }
+}
+@media screen and (min-width:768px) {
+    .col{
+        width: 100%;
+    }
+}
+@media screen and (min-width:992px) {
+    .col{
+        width: 50%;
+    }
+}

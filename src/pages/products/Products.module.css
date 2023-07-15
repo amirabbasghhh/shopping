@@ -1,0 +1,33 @@
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+/* responsive */
+@media screen and (max-width:576px) {
+    .col{
+        width: 100%;
+    }
+}
+@media screen and (min-width:577px) {
+    .col{
+        width: 50%;
+    }
+}
+@media screen and (min-width:992px) {
+    .col{
+        width: 33.33%;
+    }
+}
+@media screen and (min-width:1200px) {
+    .col{
+        width: 25%;
+    }
+}

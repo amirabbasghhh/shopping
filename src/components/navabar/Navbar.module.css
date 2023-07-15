@@ -1,0 +1,18 @@
+.total{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 25px;
+    
+}
+.numbershopping{
+    position: absolute;
+    background-color: blue;
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+    top:-15px;
+    right:-5px
+}
